@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Me!</title>
+    <link rel="stylesheet" href="./Assets/CSS/normalize.css">
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+</head>
+<body>
+    <header class="box boxOne navBar">
+        <h1>Take the Quiz and get your score! Mind the time</h1>
+        <button type="menu">Options</button>
+    </header>
+    <div class="container">
+        <aside class="box boxThree">
+            <article>
+                This is where the options appear
+            </article>
+            <br>
+            <button type="reset" class="quickAction">RESET</button>
+            <br>
+            <button type="button" class="quickAction">Next</button>
+            <br>
+            <button type="button" class="quickAction">Previous</button>
+            <br>
+            <button type="button" class="quickAction">Submit</button>
+        </aside>
+        <main class="box boxTwo">
+            <article id="question"></article>
+            <br>
+            <button type="button" id="buttonA" onclick = 'true'>a)</button>
+            <span id="ansA"></span>
+            <br>
+            <button type="button" id="buttonB">b)</button>
+            <span id="ansB"></span>
+            <br>
+            <button type="button" id="buttonC">c)</button>
+            <span id="ansC"></span>
+            <br>
+            <button type="button" id="buttonD">d)</button>
+            <span id="ansD"></span>
+            <br>
+        </main>
+
+        <footer class="box boxFour">D</footer>
+    </div>
+    <script src="./Script/script.js"></script>
+</body>
+</html>
