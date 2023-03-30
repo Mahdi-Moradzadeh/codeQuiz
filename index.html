@@ -11,26 +11,27 @@
 <body>
     <header class="box boxOne navBar">
         <h1>Take the Quiz and get your score! Mind the time</h1>
-        <button type="menu">Options</button>
+        <button type="button" id="start">Start</button>
+        <span id="timer">Time:</span><span id="timerCounter"></span>
     </header>
     <div class="container">
         <aside class="box boxThree">
-            <article>
+            <article class="normalFont">
                 This is where the options appear
             </article>
             <br>
-            <button type="reset" class="quickAction">RESET</button>
+            <button type="reset" class="quickAction" onClick="window.location.reload();">RESET</button>
             <br>
-            <button type="button" class="quickAction">Next</button>
+            <button type="button" class="quickAction" id="next">Next</button>
             <br>
-            <button type="button" class="quickAction">Previous</button>
+            <button type="button" class="quickAction" id="previous">Previous</button>
             <br>
-            <button type="button" class="quickAction">Submit</button>
+            <button type="button" class="quickAction" id="submit">Submit</button>
         </aside>
         <main class="box boxTwo">
-            <article id="question"></article>
+            <article id="question" class="normalFont"></article>
             <br>
-            <button type="button" id="buttonA" onclick = 'true'>a)</button>
+            <button type="button" id="buttonA">a)</button>
             <span id="ansA"></span>
             <br>
             <button type="button" id="buttonB">b)</button>
@@ -44,7 +45,7 @@
             <br>
         </main>
 
-        <footer class="box boxFour">D</footer>
+        <footer class="box boxFour largeFont">You Score: <span id="score"></span></footer>
     </div>
     <script src="./Script/script.js"></script>
 </body>

@@ -31,10 +31,15 @@ margin-top: 10rem;
     margin: 2px;
     padding: 2%;
 }
-
+.boxOne{
+    height: 8rem;
+}
+.boxFour{
+    height: 68%;
+}
 .boxOne, .boxFour{
     width: 99%;
-    height: 8rem;
+
     margin: 2px;
     position:absolute;
     top: 20rem;
@@ -49,14 +54,14 @@ margin-top: 10rem;
 }
 
 .boxTwo{
-    width: 106rem;
+    width: calc(100% - 22rem);
     position:absolute;
     left: 14vw;
     
 }
 
 .boxThree{
-    width: 100fr;
+    width: 20rem;
     position:absolute;
     left: 0;
 
@@ -87,6 +92,29 @@ article{
     display: inline-block;
 }
 
-#question{
+/* #question{
     font-size: 2rem;
+} */
+
+.normalFont{
+    font-size: 2rem;
+}
+
+.largeFont{
+    font-size: 6rem;
+}
+
+button{
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 2 rem;
+}
+
+#timer, #timerCounter{
+    width: 4rem;
+    height: 2rem;
+    background-color: brown;
+    color: white;
+    font-size: 3rem;
+    margin-left: 20px ;
 }
